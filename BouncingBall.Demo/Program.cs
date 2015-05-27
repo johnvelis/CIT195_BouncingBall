@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace BouncingBall
+namespace BouncingBall.Demo
 {
 #if WINDOWS || LINUX
     /// <summary>

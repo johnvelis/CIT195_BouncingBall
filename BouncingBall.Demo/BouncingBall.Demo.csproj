@@ -5,11 +5,11 @@
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{FEA622B1-88FD-416F-8572-681CAD760268}</ProjectGuid>
+    <ProjectGuid>{14A526A7-3E96-4F28-B9CD-EDEF4F4B69E5}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>BouncingBall</RootNamespace>
-    <AssemblyName>BouncingBall</AssemblyName>
+    <RootNamespace>BouncingBall.Demo</RootNamespace>
+    <AssemblyName>BouncingBall.Demo</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MonoGamePlatform>Windows</MonoGamePlatform>
     <MonoGameContentBuilderExe>
@@ -50,6 +50,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Ball.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Wall.png" />
     <Content Include="Icon.ico" />
   </ItemGroup>
   <ItemGroup>
