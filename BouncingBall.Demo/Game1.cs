@@ -11,7 +11,7 @@ namespace BouncingBall.Demo
     public class Game1 : Game
     {
         //
-        // Use persistance in later version
+        // Use persistance in later version of game
         //
         #region GLOBAL VARIABLES
 
